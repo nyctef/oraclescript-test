@@ -15,7 +15,8 @@ namespace oraclescript_test
 
             var sql = @"
 ;
-CREATE TABLE foo (
+
+CREATE TABLE foo(
   new_col CHAR(2 BYTE) NOT NULL,
   CONSTRAINT countries_pk PRIMARY KEY (new_col)
 );
