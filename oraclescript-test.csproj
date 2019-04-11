@@ -7,6 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Devart.Data.Oracle" Version="9.6.696" />
+    <PackageReference Include="Devart.Data.Oracle" Version="9.6.725" />
   </ItemGroup>
 </Project>
