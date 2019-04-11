@@ -14,9 +14,8 @@ namespace oraclescript_test
             connection.Open();
 
             var sql = @"
--- <Migration ID=""994ad00c-e81b-4e3b-aeaa-dfbb46e3704f"" />
 ;
-CREATE TABLE talkr_cust.newtablethatnoonehasseenbefore (
+CREATE TABLE foo (
   new_col CHAR(2 BYTE) NOT NULL,
   CONSTRAINT countries_pk PRIMARY KEY (new_col)
 );
